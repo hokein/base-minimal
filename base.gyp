@@ -36,7 +36,7 @@
         'src/base/callback_helpers.h',
         'src/base/callback_internal.cc',
         'src/base/callback_internal.h',
-        'src/base/callback_registry.h',
+        'src/base/callback_list.h',
         'src/base/cancelable_callback.h',
         'src/base/compiler_specific.h',
         'src/base/logging.h',
