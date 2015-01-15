@@ -99,6 +99,20 @@
         'src/base/tuple.h',
         'src/build/build_config.h',
       ],
+      'conditions': [
+        # Don't warn about the "typedef 'foo' locally defined but not used"
+        # for gcc 4.8 and higher.
+        ['clang==0', {
+          'cflags': [
+            '-Wno-unused-local-typedefs',
+          ],
+          'direct_dependent_settings': {
+            'cflags': [
+              '-Wno-unused-local-typedefs',
+            ],
+          },
+        }],
+      ],
     },
   ],
 }

@@ -306,15 +306,6 @@ bool EndsWith(const std::string& str, const std::string& search,
   return EndsWithT(str, search, case_sensitive);
 }
 
-static const char* const kByteStringsUnlocalized[] = {
-  " B",
-  " kB",
-  " MB",
-  " GB",
-  " TB",
-  " PB"
-};
-
 template<class StringType>
 void DoReplaceSubstringsAfterOffset(StringType* str,
                                     size_t start_offset,
