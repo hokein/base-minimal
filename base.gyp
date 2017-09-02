@@ -9,7 +9,7 @@
         ],
         'xcode_settings': {
           'CLANG_CXX_LANGUAGE_STANDARD': 'gnu++11',
-          'CLANG_CXX_LIBRARY': 'libstdc++',
+          'CLANG_CXX_LIBRARY': 'libc++',
         },
         'cflags_cc': [
           '-std=c++0x',
@@ -20,7 +20,7 @@
       ],
       'xcode_settings': {
         'CLANG_CXX_LANGUAGE_STANDARD': 'gnu++11',
-        'CLANG_CXX_LIBRARY': 'libstdc++',
+        'CLANG_CXX_LIBRARY': 'libc++',
       },
       'cflags_cc': [
         '-std=c++0x',
