@@ -21,6 +21,9 @@
       'xcode_settings': {
         'CLANG_CXX_LANGUAGE_STANDARD': 'gnu++11',
         'CLANG_CXX_LIBRARY': 'libc++',
+        'WARNING_CFLAGS': [
+          '-Wno-unused-local-typedef',
+        ],
       },
       'cflags_cc': [
         '-std=c++0x',
