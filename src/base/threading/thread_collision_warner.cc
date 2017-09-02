@@ -8,6 +8,7 @@
 
 #if defined(OS_MACOSX)
 #include <sys/resource.h>
+#include <pthread.h>
 #endif
 
 #if defined(OS_LINUX)
